@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-14T00:22:01 IST" name="Default suite" finished-at="2020-11-14T00:22:02 IST" duration-ms="161">
+    <groups>
+    </groups>
+    <test started-at="2020-11-14T00:22:01 IST" name="Default test" finished-at="2020-11-14T00:22:02 IST" duration-ms="161">
+      <class name="testclass_package.TC_loginpage">
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:testclass_package.TC_loginpage@49c7b90e]" started-at="2020-11-14T00:22:01 IST" name="openbrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1605293521935" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method openbrowser but has not been marked @Optional or defined
+in C:\Users\shubh\AppData\Local\Temp\testng-eclipse--627608938\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method openbrowser but has not been marked @Optional or defined
+in C:\Users\shubh\AppData\Local\Temp\testng-eclipse--627608938\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="launchurl()[pri:0, instance:testclass_package.TC_loginpage@49c7b90e]" started-at="2020-11-14T00:22:01 IST" name="launchurl" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1605293521998" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method is-config="true" signature="kl()[pri:0, instance:testclass_package.TC_loginpage@49c7b90e]" started-at="2020-11-14T00:22:02 IST" name="kl" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1605293522041" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kl -->
+        <test-method signature="login()[pri:0, instance:testclass_package.TC_loginpage@49c7b90e]" started-at="2020-11-14T00:22:02 IST" name="login" finished-at="2020-11-14T00:22:02 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method openbrowser but has not been marked @Optional or defined
+in C:\Users\shubh\AppData\Local\Temp\testng-eclipse--627608938\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method openbrowser but has not been marked @Optional or defined
+in C:\Users\shubh\AppData\Local\Temp\testng-eclipse--627608938\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testclass_package.TC_loginpage@49c7b90e]" started-at="2020-11-14T00:22:02 IST" name="aftermethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1605293522061" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testclass_package.TC_loginpage@49c7b90e]" started-at="2020-11-14T00:22:02 IST" name="afterclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1605293522068" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testclass_package.TC_loginpage@49c7b90e]" started-at="2020-11-14T00:22:02 IST" name="close" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1605293522076" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testclass_package.TC_loginpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
